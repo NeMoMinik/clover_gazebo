@@ -1,0 +1,16 @@
+
+material aruco/qr
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture qr.png
+                filtering none
+                scale 1.0 1.0
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <model name="line">
+        <static>true</static>
+        <link name="linews">
+            
+<visual name="line">
+    <pose>0.0 0.0 0.0 0.0 0.0 1.5707963267948966</pose>
+    <cast_shadows>false</cast_shadows>
+    <geometry>
+        <box>
+            <size>3 3 1e-3</size>
+        </box>
+    </geometry>
+    <material>
+        <script>
+            <uri>model://pole/materials/scripts</uri>
+            <uri>model://pole/materials/textures</uri>
+            <name>arseniy/line</name>
+        </script>
+    </material>
+</visual>
+
+        </link>
+    </model>
+</sdf>

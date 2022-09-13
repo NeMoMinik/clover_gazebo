@@ -1,0 +1,19 @@
+
+material arseniy/line
+{
+    technique
+    {
+        pass
+        {
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture pole.png
+                filtering none
+                scale 1.0 1.0
+            }
+        }
+    }
+}

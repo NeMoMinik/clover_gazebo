@@ -1,0 +1,27 @@
+
+<?xml version="1.0"?>
+<sdf version="1.5">
+    <model name="aruco_2_20">
+        <static>true</static>
+        <link name="aruco_2_20_link">
+            
+<visual name="visual_marker_2_0">
+    <pose>0.0 0.0 0.0 0.0 0.0 1.5707963267948966</pose>
+    <cast_shadows>false</cast_shadows>
+    <geometry>
+        <box>
+            <size>0.44 0.44 1e-3</size>
+        </box>
+    </geometry>
+    <material>
+        <script>
+            <uri>model://aruco_nto2021_txt/materials/scripts</uri>
+            <uri>model://aruco_nto2021_txt/materials/textures</uri>
+            <name>aruco/qr</name>
+        </script>
+    </material>
+</visual>
+
+        </link>
+    </model>
+</sdf>
