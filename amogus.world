@@ -2126,99 +2126,99 @@
       <pose>0 0 0.3 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>1598 536000000</sim_time>
-      <real_time>281 926404788</real_time>
-      <wall_time>1663054953 810810203</wall_time>
-      <iterations>70100</iterations>
+      <sim_time>1833 92000000</sim_time>
+      <real_time>197 44907736</real_time>
+      <wall_time>1663064860 43499514</wall_time>
+      <iterations>48956</iterations>
       <model name='Qrcode'>
-        <pose>0.76818 3.16727 0.501535 0 -0 0</pose>
+        <pose>1.01241 3.01185 0.508088 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aruco_2_20_link'>
-          <pose>0.76818 3.16727 0.501535 0 -0 0</pose>
+          <pose>1.01241 3.01185 0.508088 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aruco_2_20'>
-        <pose>-0.230485 0.166693 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='aruco_2_20_link'>
-          <pose>-0.230485 0.166693 0 0 -0 0</pose>
+          <pose>0 0 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='clover'>
-        <pose>-3.5e-05 -8e-06 0.06061 0 6e-06 -7e-06</pose>
+        <pose>-3.5e-05 -9e-06 0.06061 -0 6e-06 -8e-06</pose>
         <scale>1 1 1</scale>
         <link name='/imu_link'>
-          <pose>-3.5e-05 -8e-06 0.06061 -0 8e-06 -7e-06</pose>
+          <pose>-3.6e-05 -9e-06 0.06061 -0 8e-06 -8e-06</pose>
           <velocity>-0 -0 0.00026 -2e-06 -4e-06 -0</velocity>
-          <acceleration>0 0 -0 0 -0 0</acceleration>
-          <wrench>0 0 -0 0 -0 0</wrench>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='base_guard_link'>
-          <pose>-3.5e-05 -8e-06 0.06061 -0 8e-06 -7e-06</pose>
+          <pose>-3.6e-05 -9e-06 0.06061 -0 8e-06 -8e-06</pose>
           <velocity>-0 -0 0.00026 -2e-06 -4e-06 -0</velocity>
-          <acceleration>0 0 -0 0 -0 0</acceleration>
-          <wrench>0 0 -0 0 -0 0</wrench>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='base_link'>
-          <pose>-3.5e-05 -8e-06 0.06061 0 6e-06 -7e-06</pose>
+          <pose>-3.5e-05 -9e-06 0.06061 -0 6e-06 -8e-06</pose>
           <velocity>-0 -0 0.00026 0 -5e-06 0</velocity>
-          <acceleration>0 0 -0 0 -0 0</acceleration>
-          <wrench>0 0 -0 0 -0 0</wrench>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='led_link'>
-          <pose>-3.5e-05 -8e-06 0.05861 -0 8e-06 -7e-06</pose>
+          <pose>-3.6e-05 -9e-06 0.05861 -0 8e-06 -8e-06</pose>
           <velocity>-0 -0 0.00026 -2e-06 -4e-06 -0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='lidar_vl53l1x_link'>
+          <pose>-3.7e-05 -9e-06 0.02061 0.059378 1.57079 0.05937</pose>
+          <velocity>-1e-06 -0 0.00026 -1e-06 -1.1e-05 -0</velocity>
           <acceleration>0 0 -0 0 -0 0</acceleration>
           <wrench>0 0 -0 0 -0 0</wrench>
         </link>
-        <link name='lidar_vl53l1x_link'>
-          <pose>-3.7e-05 -8e-06 0.02061 0.059378 1.57079 0.059371</pose>
-          <velocity>-1e-06 -0 0.00026 -1e-06 -1.1e-05 -0</velocity>
-          <acceleration>-0 0 -0 0 -0 0</acceleration>
-          <wrench>-0 0 -0 0 -0 0</wrench>
-        </link>
         <link name='main_camera_link'>
-          <pose>0.055055 -8e-06 0.030336 -7.8e-05 1.56853 -8.4e-05</pose>
+          <pose>0.055054 -1e-05 0.030336 -7.8e-05 1.56853 -8.6e-05</pose>
           <velocity>2.2e-05 -0 0.000171 -2e-06 -0.000717 0</velocity>
-          <acceleration>0 -0 -0 -0 -0 -0</acceleration>
-          <wrench>0 -0 -0 0 -0 0</wrench>
+          <acceleration>-0 -0 0 -0 -0 -0</acceleration>
+          <wrench>-0 -0 0 0 -0 0</wrench>
         </link>
         <link name='rotor_0'>
-          <pose>0.082965 -0.083008 0.08661 0 6e-06 -7e-06</pose>
+          <pose>0.082964 -0.08301 0.08661 -0 6e-06 -8e-06</pose>
           <velocity>-1e-06 -0 0.000261 -2e-06 -5e-06 0</velocity>
           <acceleration>-4.3e-05 5e-06 -1e-06 -0.000464 -0.000164 0</acceleration>
           <wrench>-0 0 -0 0 -0 0</wrench>
         </link>
         <link name='rotor_1'>
-          <pose>-0.083034 0.082993 0.086611 0 6e-06 -7e-06</pose>
+          <pose>-0.083035 0.082991 0.086611 -0 6e-06 -8e-06</pose>
           <velocity>-1e-06 0 0.00026 -2e-06 -5e-06 0</velocity>
           <acceleration>-4.1e-05 9e-06 -0.00011 -0.00045 -0.000172 0</acceleration>
           <wrench>-0 0 -1e-06 0 -0 0</wrench>
         </link>
         <link name='rotor_2'>
-          <pose>0.082966 0.082992 0.08661 0 7e-06 -7e-06</pose>
+          <pose>0.082965 0.08299 0.08661 -0 7e-06 -8e-06</pose>
           <velocity>-1e-06 -0 0.00026 -2e-06 -6e-06 0</velocity>
           <acceleration>-4e-05 6e-06 -8.1e-05 -0.000475 -0.000212 0</acceleration>
           <wrench>-0 0 -1e-06 0 -0 0</wrench>
         </link>
         <link name='rotor_3'>
-          <pose>-0.083035 -0.083007 0.086611 0 6e-06 -7e-06</pose>
+          <pose>-0.083036 -0.083009 0.086611 -0 6e-06 -8e-06</pose>
           <velocity>-1e-06 0 0.00026 -2e-06 -5e-06 0</velocity>
           <acceleration>-4.4e-05 9e-06 -3.9e-05 -0.00049 -0.000204 0</acceleration>
           <wrench>-0 0 -0 0 -0 0</wrench>
         </link>
       </model>
       <model name='line'>
-        <pose>1.19015 1.89935 0.029519 0 -0 1.57933</pose>
+        <pose>1.19244 1.63087 0.029519 0 -0 1.57933</pose>
         <scale>1 1 1</scale>
         <link name='linews'>
-          <pose>1.19015 1.89935 0.029519 0 -0 1.57933</pose>
+          <pose>1.19244 1.63087 0.029519 0 -0 1.57933</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -2235,13 +2235,13 @@
         </link>
       </model>
       <model name='unit_box'>
-        <pose>0.769327 3.16811 0.25 0 -1e-06 0.002924</pose>
+        <pose>0.994728 3.01296 0.252568 1.8e-05 5e-06 0.003051</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>0.769327 3.16811 0.25 0 -1e-06 0.002924</pose>
+          <pose>0.994728 3.01296 0.252568 1.8e-05 5e-06 0.003051</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>-0.022901 -0.005015 -2.50582 0.01992 -0.093068 0.004716</acceleration>
-          <wrench>-0.022901 -0.005015 -2.50582 0 -0 0</wrench>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <light name='sun'>
@@ -2250,7 +2250,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>2.02573 8.19393 5.22206 0 0.732241 -1.69468</pose>
+        <pose>0.774517 10.2795 1.54917 0 0.096071 -1.48907</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -2784,6 +2784,31 @@
       </link>
       <pose>1.33103 2.61588 0 0 -0 0</pose>
     </model>
+    <model name='line'>
+      <static>1</static>
+      <link name='linews'>
+        <visual name='line'>
+          <pose>0 0 0 0 -0 1.5708</pose>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>3 3 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://pole/materials/scripts</uri>
+              <uri>model://pole/materials/textures</uri>
+              <name>arseniy/line</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>1.36089 1.70046 0 0 -0 0</pose>
+    </model>
     <model name='unit_box'>
       <link name='link'>
         <inertial>
@@ -2817,7 +2842,7 @@
             <shader type='pixel'>
               <normal_map>__default__</normal_map>
             </shader>
-            <ambient>0.3 0.3 0.3 1</ambient>
+            <ambient>0.3 0.3 1 1</ambient>
             <diffuse>0.7 0.7 0.7 1</diffuse>
             <specular>0.01 0.01 0.01 1</specular>
             <emissive>0 0 0 1</emissive>
@@ -2884,32 +2909,7 @@
       </link>
       <static>0</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose>1.24035 3.01371 0.500003 1.8e-05 5e-06 0.003051</pose>
-    </model>
-    <model name='line'>
-      <static>1</static>
-      <link name='linews'>
-        <visual name='line'>
-          <pose>0 0 0 0 -0 1.5708</pose>
-          <cast_shadows>0</cast_shadows>
-          <geometry>
-            <box>
-              <size>3 3 0.001</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>model://pole/materials/scripts</uri>
-              <uri>model://pole/materials/textures</uri>
-              <name>arseniy/line</name>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose>1.36089 1.70046 0 0 -0 0</pose>
+      <pose>1.00127 2.99986 0.249982 -1e-06 0.000104 0.00322</pose>
     </model>
   </world>
 </sdf>
