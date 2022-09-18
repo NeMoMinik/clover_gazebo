@@ -1,6 +1,6 @@
 #!/bin/bash
 #gittest
-git clonehttps://github.com/NeMoMinik/clover_gazebo.git
+git clone https://github.com/NeMoMinik/clover_gazebo.git
 cd clover_gazebo/
 cp -rf models/ /home/clover/.gazebo/
 cp -f simulator.launch /home/clover/catkin_ws/src/clover/clover_simulation/launch/
